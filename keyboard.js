@@ -1,8 +1,15 @@
+var st = false ;
 function typew(x) {
 	var z=x;
 	var y=document.getElementById('txtarea').innerHTML;
 	// body...
-	document.getElementById('txtarea').innerHTML = y+z;
+	if(st == true){
+		document.getElementById('txtarea').innerHTML = y + z.toUpperCase();
+		st = false ;
+		document.getElementById('sh').style.backgroundColor = "#E6E6FA";
+	}else{
+		document.getElementById('txtarea').innerHTML = y + z;
+	}
 }
 function del(){
 	var u = document.getElementById('txtarea').innerHTML;
@@ -22,4 +29,15 @@ function tab(){
 }
 function cr(){
 	document.getElementById('txtarea').innerHTML = "";
+}
+function uc(j){
+	if (j == 'kr'){
+		if(st == false){
+			st = true;
+			document.getElementById('sh').style.backgroundColor = "#FF99FF";
+		}else{
+			st = false;
+			document.getElementById('sh').style.backgroundColor = "#E6E6FA";
+		}
+	}
 }
