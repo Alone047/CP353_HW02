@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>keyboard</title>
+        <link rel="stylesheet" type="text/css" href="A.css">
+        <script src="keyboard.js"></script>
+    </head>
+    <body onload="cr()">
+        <div>
+                <textarea readonly rows="10" cols="80" id="txtarea">
+                </textarea>
+        </div>
+            <div class = "keyboard">
+                <div class="word" onmousedown="typew('`')">`</div>
+                <div class="word" onmousedown="typew(1)">1</div>
+                <div class="word" onmousedown="typew(2)">2</div>
+                <div class="word" onmousedown="typew(3)">3</div>
+                <div class="word" onmousedown="typew(4)">4</div>
+                <div class="word" onmousedown="typew(5)">5</div>
+                <div class="word" onmousedown="typew(6)">6</div>
+                <div class="word" onmousedown="typew(7)">7</div>
+                <div class="word" onmousedown="typew(8)">8</div>
+                <div class="word" onmousedown="typew(9)">9</div>
+                <div class="word" onmousedown="typew(0)">0</div>
+                <div class="word" onmousedown="typew('-')">-</div>
+                <div class="word" onmousedown="typew('=')">=</div>
+                <div class="word" onmousedown="typew('\\')">\</div>
+                <div class="word wenter " onmousedown="del()">Del.</div><br>
+                <div class="word wenter" onmousedown="tab()">Tab</div>
+                <div class="word" onmousedown="typew('q')">q</div>
+                <div class="word" onmousedown="typew('w')">w</div>
+                <div class="word" onmousedown="typew('e')">e</div>
+                <div class="word" onmousedown="typew('r')">r</div>
+                <div class="word" onmousedown="typew('t')">t</div>
+                <div class="word" onmousedown="typew('y')">y</div>
+                <div class="word" onmousedown="typew('u')">u</div>
+                <div class="word" onmousedown="typew('i')">i</div>
+                <div class="word" onmousedown="typew('o')">o</div>
+                <div class="word" onmousedown="typew('p')">p</div>
+                <div class="word" onmousedown="typew('[')">[</div>
+                <div class="word" onmousedown="typew(']')">]</div><br>
+                <div>
+                    <div class="word" onmousedown="typew('a')">a</div>
+                    <div class="word" onmousedown="typew('s')">s</div>
+                    <div class="word" onmousedown="typew('d')">d</div>
+                    <div class="word" onmousedown="typew('f')">f</div>
+                    <div class="word" onmousedown="typew('g')">g</div>
+                    <div class="word" onmousedown="typew('h')">h</div>
+                    <div class="word" onmousedown="typew('j')">j</div>
+                    <div class="word" onmousedown="typew('k')">k</div>
+                    <div class="word" onmousedown="typew('l')">l</div>
+                    <div class="word" onmousedown="typew(';')">;</div>
+                    <div class="word" onmousedown="typew('\'')">'</div>
+                    <div class="word wenter" onmousedown="Ent()">Enter</div>
+                </div>
+                <div>
+                    <div class="word" onmousedown="typew('z')">z</div>
+                    <div class="word" onmousedown="typew('x')">x</div>
+                    <div class="word" onmousedown="typew('c')">c</div>
+                    <div class="word" onmousedown="typew('v')">v</div>
+                    <div class="word" onmousedown="typew('b')">b</div>
+                    <div class="word" onmousedown="typew('n')">n</div>
+                    <div class="word" onmousedown="typew('m')">m</div>
+                    <div class="word" onmousedown="typew(',')">,</div>
+                    <div class="word" onmousedown="typew('.')">.</div>
+                    <div class="word" onmousedown="typew('/')">/</div><br>
+                </div>
+                <div>
+                    <div class="word wenter" onmousedown="cr()">Clear</div>
+                    <div class="word" onmousedown="spac()" style="width: 500px">Spacbar</div>
+                </div>
+            </div>
+    </body>
+</html>

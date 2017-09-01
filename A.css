@@ -1,0 +1,37 @@
+.word{
+	width : 25px;
+	height : 25px;
+	border: 1px solid red;
+	border-radius: 40%;
+	text-align: center;
+	display: inline-block;
+	padding: 20px;
+	background-color: #E6E6FA;
+	color:#1E90FF;
+	font-size: 20px;
+	cursor:pointer;
+}
+.keyboard{
+	text-align: center;
+	margin-top: 5%;
+}
+.wenter{
+    width : 50px;
+        }
+body {
+	background-color: #FF9900;
+}
+textarea{
+	margin-left: 30%;
+	margin-top: 8%;
+	background-color:#FFFFCC;
+	resize: none;
+	border-radius: 5%;
+}
+.word:hover{
+	background-color: #CCFF00; 
+}
+.word:active{
+	background-color: skyblue; 
+}
+
